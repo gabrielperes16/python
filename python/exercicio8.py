@@ -9,14 +9,20 @@
 # hi = hypot(co, ca)
 # print("A hiponusa vai medir {:.2f}".format(hi))
 
+#import math
+#an = float(input("Digite o valor do angulo que voce deseja="))
+#seno = math.sin(math.radians(an))
+#cosseno = math.cos(math.radians(an))
+#tangente = math.tan(math.radians(an))
+#print('O angulo de {} tem o seno de {:.2f}'.format(an,seno))
+#print("O angulo de {} tem o tangente de {:.2f}".format(an,tangente))
 
-
-import math
-an = float(input("Digite o valor do angulo que voce deseja="))
-seno = math.sin(math.radians(an))
-cosseno = math.cos(math.radians(an))
-tangente = math.tan(math.radians(an))
-
-print('O angulo de {} tem o seno de {:.2f}'.format(an,seno))
-print("O angulo de {} tem o cosseno de {:.2f}".format(an,cosseno))
-print("O angulo de {} tem o tangente de {:.2f}".format(an,tangente))
+from random import shuffle
+n1=  str(input("Digite o nome"))
+n2=  str(input("Digite o nome"))
+n3=  str(input("Digite o nome"))
+n4=  str(input("Digite o nome"))
+lista = [n1,n2,n3,n4]
+shuffle(lista)
+print("a ordem será")
+print(lista)
