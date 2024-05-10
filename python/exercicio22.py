@@ -1,0 +1,7 @@
+nome = str(input("Insira seu nome completo:")).strip()
+lista= nome.split()
+Letras = len(nome) - nome.count(" ")
+print("O nome em maiusculo é {}".format(nome.upper()))
+print("O nome em minusculo é {}".format(nome.lower()))
+print("A quantidade total de Letras sem espaços é {}".format(Letras))
+print("A quantidade de caracteres no primeiro nome é",len(lista[0]))
