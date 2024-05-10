@@ -1,9 +1,11 @@
 nome = input("Insira seu nome completo:")
 nome_Maiusculo = (nome.upper())
+nome_minusculo = (nome.lower())
 lista= nome.split()
 Letras = len(nome)
 leitor = len(lista[0])
 
 print("O nome em maiusculo é {}".format(nome_Maiusculo))
+print("O nome em minusculo é {}".format(nome_minusculo))
 print("A quantidade total de Letras com espaços é {}".format(Letras))
 print("A quantidade de caracteres no primeiro nome é",leitor)
