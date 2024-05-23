@@ -1,0 +1,1 @@
+print("\033[30mHello word!\033[m")
