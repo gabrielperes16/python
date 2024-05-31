@@ -31,3 +31,6 @@ if ano_alistamento < 2024:
     print("Seu alistamento deveria ter acontecido no ano de {}".format(ano_alistamento))
 else:
     print("Seu alistamento acontecera no ano de {}".format(ano_alistamento))
+
+
+
