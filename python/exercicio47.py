@@ -1,5 +1,3 @@
 
-for n in range(0,50):
-    if n == 0:
-        print(n)
-    
+for contagem in range (2,52,2):
+        print(contagem, end=" ")
