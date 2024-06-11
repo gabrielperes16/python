@@ -9,4 +9,5 @@ while contador <= 10:
     print(f"\033[32m{termo} ↦\033[m", end=" ")
     termo+= razão
     contador+=1
-print("\033[01;36mFIM\033[m")
+print("PAUSA")
+add_termos= int(input("Quantos termos a mais você precisa? "))
