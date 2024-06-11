@@ -10,4 +10,9 @@ while contador <= 10:
     termo+= razão
     contador+=1
 print("PAUSA")
-add_termos= int(input("Quantos termos a mais você precisa? "))
+add_termos=0
+contador==10
+while contador+add_termos:
+    add_termos= int(input("Quantos termos a mais você precisa? "))
+    contador+=add_termos
+print(f"{contador}↦",end="")
