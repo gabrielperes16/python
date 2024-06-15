@@ -1,0 +1,8 @@
+n1 = input("Digite uma frase:")
+print("O valor digitado foi:{}".format(n1))
+print("esta valor é decimal?",end=" ")
+print(n1.isdecimal(),'\n')
+print("Este valor é numerico?", end=" ")
+print(n1.isnumeric(), '\n')
+print("Este valor é alfa numerico?", end=" ")
+print(n1.isalpha(), '\n')
